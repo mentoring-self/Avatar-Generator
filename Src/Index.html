@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Generator</title>
+    <link rel="icon" href="Img-Src/Logo.png">
+    <link rel="stylesheet" href="Style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Avatar Generator</h1>
+        <div class="gen">
+            <div class="input-wrapper gen ">
+                <input id="name" class="inpbox gen" type="text" placeholder="Your Name">
+                <button class="generate" onclick="Generate()">Generate</button>
+            </div>
+        </div>
+        <div>
+            <div class="avatar zoom">
+                <img src="https://avatars.dicebear.com/api/male/gopi.svg?mood[]=happy" id="avtr" height="200"
+                    width="200" alt="No Avatar Found For This Name">
+                <div class="usrinfo">
+                    <h2 id="usrname">Name : {name}</h2>
+                    <h2 id="gender"> Gender: {gender}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+
+</html>
