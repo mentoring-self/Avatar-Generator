@@ -1,4 +1,4 @@
-<h1 align="center"> Avatar Generator <img src="Img-Src/Readme-Logo.png" width="50px" height="50px"> </h1>
+<h1 align="center"> Avatar Generator <img src="Img-Src/Readme-Logo.svg" width="50px" height="50px"> </h1>
 
 ### 🔁 Functioning Of Avatar Generator :
 
