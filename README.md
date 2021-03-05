@@ -2,7 +2,7 @@
 
 ### 🔁 Functioning Of Avatar Generator :
 
-1. Enter Your Name In The `InputBox` And Then Click `Generate` Button.
+1. Enter Your Name In The `InputBox` And Then Click `Generate`.
 2. And Then, An Avatar Will Be Generated Based On The Name You Entered.
 
 ---
